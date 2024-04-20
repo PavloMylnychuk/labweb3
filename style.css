@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Стилі для списків */
+
+ol, ul {
+    margin: 20px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+/* Стилі для меню */
+
+nav#menu {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav#menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu ul li a:hover {
+    text-decoration: underline;
+}
